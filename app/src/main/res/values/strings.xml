@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Activity Tracker</string>
+    <string name="app_name">Зарегистрироваться</string>
+    <string name="radio_man">Мужской</string>
+    <string name="radio_woman">Женский</string>
+    <string name="radio_another">Другое</string>
+    <string name="radio_gender">Пол</string>
+    <string name="Reg_toolbar">Регистрация</string>
+    <string name="Login_toolbar">Вход</string>
+    <string name="login_come_in">Войти</string>
+    <string name="go_to_Login">Уже есть аккаунт?</string>
+    <string name="login_text">Логин</string>
+    <string name="reg_name">Имя или никнейм</string>
+    <string name="reg_password">Пароль</string>
+    <string name="reg_repeat_password">Повторите пароль</string>
+    <string name="reg_permission">Нажимая на кнопку, вы соглашаетесь с политикой
+        конфиденциальности и обработки персональных данных, а также принимаете пользовательское
+        соглашение</string>
 </resources>
