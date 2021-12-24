@@ -16,7 +16,7 @@ class RegistrationActivity : AppCompatActivity() {
         binding = RegistrationBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.toolbarRegistration.setOnClickListener {
+        binding.toolbarRegistration.setNavigationOnClickListener {
             finish()
         }
 
