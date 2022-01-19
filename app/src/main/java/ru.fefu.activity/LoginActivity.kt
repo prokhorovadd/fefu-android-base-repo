@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
         binding = LoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.toolbarLogin.setOnClickListener {
+        binding.toolbarLogin.setNavigationOnClickListener {
             finish()
         }
     }
