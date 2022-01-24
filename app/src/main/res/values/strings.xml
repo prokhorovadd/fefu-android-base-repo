@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">Зарегистрироваться</string>
+    <string name="app_name">Activity Tracker</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="activity">Активность</string>
+    <string name="profile">Профиль</string>
+    <string name="my_activity">My activity</string>
+    <string name="users_activity">Users activity</string>
     <string name="radio_man">Мужской</string>
     <string name="radio_woman">Женский</string>
     <string name="radio_another">Другое</string>
