@@ -114,7 +114,7 @@
                 android:id="@+id/btnReg2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/app_name"
+                android:text="@string/registration"
                 android:textSize="16sp"
                 android:layout_marginTop="24dp"
                 android:textAllCaps="false" />

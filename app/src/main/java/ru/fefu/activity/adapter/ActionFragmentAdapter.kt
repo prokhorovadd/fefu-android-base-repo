@@ -1,7 +1,10 @@
-package ru.fefu.activity
+package ru.fefu.activity.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import ru.fefu.activity.Activity
+import ru.fefu.activity.MyActivity
+import ru.fefu.activity.UsersActivity
 
 class ActionFragmentAdapter(fragment : Activity) : FragmentStateAdapter(fragment) {
 
@@ -10,7 +13,7 @@ class ActionFragmentAdapter(fragment : Activity) : FragmentStateAdapter(fragment
     }
 
     override fun createFragment(position: Int): Fragment {
-        return if (position == 0) MyActivity.newInstance()
-        else UsersActivity.newInstance()
+        return if (position == 0) MyActivity()
+        else UsersActivity()
     }
 }
